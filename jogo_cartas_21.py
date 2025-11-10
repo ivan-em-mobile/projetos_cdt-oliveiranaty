@@ -68,7 +68,7 @@ def carregar_imagem_carta(carta):
     path = f"cartas/{carta.valor}_{carta.naipe}.png"
     return pygame.image.load(path).convert_alpha()
 
-imagem_verso = pygame.image.load("cartas/verso.png").convert_alpha()
+imagem_verso = pygame.image.load("cartas/verso_carta.png").convert_alpha()
 
 # ------------ Desenho na Tela ------------
 def desenhar_texto(texto, tamanho, cor, x, y):
